@@ -12,6 +12,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        'big-shoulder': ['var(--font-big-shoulder)'],
+        'lex-deca': ['var(--font-lexend-deca)'],
+      },
     },
   },
   plugins: [],
