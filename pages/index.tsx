@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <div className="flex justify-center lg:items-center w-full h-full">
         <div className="grid grid-cols-1 lg:grid-cols-3 rounded-2xl overflow-hidden">
+          <h1 className="sr-only">Car overview</h1>
           <div className="flex flex-col gap-10 max-w-[400px] p-16 bg-[#e28525]">
             <Image height={90} width={90} src="/images/icon-sedans.svg" alt="icon of car" />
             <h2 className=" font-big-shoulder text-6xl font-semibold text-white">SEDANS</h2>
