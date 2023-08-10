@@ -17,11 +17,13 @@ const lexend_deca = Lexend_Deca({
 
 export default function App({Component, pageProps}: AppProps) {
   return (
+    <>
     <Head>
       <title>Frontend Mentor Challenge</title>
     </Head>
     <main className={`${big_shoulder_display.variable} ${lexend_deca.variable}`}>
       <Component {...pageProps} />
     </main>
+  </>
   )
 }
